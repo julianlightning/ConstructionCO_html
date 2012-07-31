@@ -37,7 +37,7 @@ $images = json_decode($this->item->images);
 ?>
 
 <div class="item-page<?php echo $this->pageclass_sfx?>">
-    
+
 <?php if($images->image_fulltext): ?>
     <div class="images">
         <img src="<?php echo $images->image_fulltext; ?>" />
